@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNg1 AMAZON]">
+  <test thread-count="5" name="TestAMZ0(failed)">
+    <classes>
+      <class name="ssfp.SSFPtesting">
+        <methods>
+          <include name="searchfunction8"/>
+          <include name="searchfunction9"/>
+          <include name="searchfunction4"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- ssfp.SSFPtesting -->
+    </classes>
+  </test> <!-- TestAMZ0(failed) -->
+  <test thread-count="5" name="TestAMZ1(failed)">
+    <classes>
+      <class name="ssfp.SSFPtestingpart2">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="searchfunction10"/>
+        </methods>
+      </class> <!-- ssfp.SSFPtestingpart2 -->
+    </classes>
+  </test> <!-- TestAMZ1(failed) -->
+  <test thread-count="5" name="TestAMZ2(failed)">
+    <classes>
+      <class name="ssfp.SSFPtestingpart3">
+        <methods>
+          <include name="close"/>
+          <include name="search22"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- ssfp.SSFPtestingpart3 -->
+    </classes>
+  </test> <!-- TestAMZ2(failed) -->
+  <test thread-count="5" name="TestAMZ3(failed)">
+    <classes>
+      <class name="shoppingCart.Carttesting">
+        <methods>
+          <include name="cartstep7"/>
+          <include name="cartstep9"/>
+          <include name="close"/>
+          <include name="cartstep1"/>
+          <include name="setup"/>
+          <include name="cartstep6"/>
+        </methods>
+      </class> <!-- shoppingCart.Carttesting -->
+    </classes>
+  </test> <!-- TestAMZ3(failed) -->
+</suite> <!-- Failed suite [TestNg1 AMAZON] -->

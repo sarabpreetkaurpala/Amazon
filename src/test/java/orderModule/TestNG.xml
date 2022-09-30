@@ -1,0 +1,7 @@
+<suite name="TestNg AMAZON">
+	<test name="TestAMZ" allow-return-values="true">
+		<classes>
+			<class name="orderModule.testorders" />
+		</classes>
+	</test>
+	</suite>

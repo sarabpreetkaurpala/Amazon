@@ -1,0 +1,23 @@
+<suite name="TestNg1 AMAZON">
+	<test name="TestAMZ0" allow-return-values="true">
+		<classes>
+			<class name="ssfp.SSFPtesting" />
+		</classes>
+	</test> 
+	<test name="TestAMZ1" allow-return-values="true">
+		<classes>
+			<class name="ssfp.SSFPtestingpart2" />
+		</classes>
+		</test> 
+		<test name="TestAMZ2" allow-return-values="true">
+		<classes>
+			<class name="ssfp.SSFPtestingpart3" />
+		</classes>
+		</test> 
+		<test name="TestAMZ3" allow-return-values="true">
+		<classes>
+			<class name="shoppingCart.Carttesting" />
+		</classes>
+		</test> 
+	</suite>
+	
